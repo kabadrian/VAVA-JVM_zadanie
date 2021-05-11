@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <HBox alignment="CENTER" prefHeight="51.0" prefWidth="601.0">
+         <children>
+            <Label text="Diagnostika PC">
+               <font>
+                  <Font name="System Bold" size="28.0" />
+               </font>
+            </Label>
+         </children>
+      </HBox>
+      <HBox alignment="CENTER_LEFT" prefHeight="45.0" prefWidth="601.0">
+         <children>
+            <Label fx:id="userNameLabel" contentDisplay="CENTER" text="Meno pouzivatela">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+         </children>
+      </HBox>
+      <HBox alignment="CENTER_LEFT" prefHeight="45.0" prefWidth="601.0">
+         <children>
+            <Label fx:id="OSLabel" contentDisplay="CENTER" text="meno verzia architektura">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+         </children>
+      </HBox>
+      <HBox alignment="CENTER_LEFT" prefHeight="45.0" prefWidth="601.0">
+         <children>
+            <Label fx:id="javaLabel" contentDisplay="CENTER" text="verzia javy">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+         </children>
+      </HBox>
+      <HBox alignment="CENTER_LEFT" prefHeight="45.0" prefWidth="601.0">
+         <children>
+            <Label fx:id="userDirectoryLabel" contentDisplay="CENTER" text="nazov pouzivatelskeho adresara">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+         </children>
+      </HBox>
+      <HBox alignment="CENTER_LEFT" prefHeight="45.0" prefWidth="601.0">
+         <children>
+            <Label fx:id="userDirectorySizeLabel" contentDisplay="CENTER" text="celkova velkost pouzivatelskeho priecinku">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+         </children>
+      </HBox>
+      <HBox alignment="CENTER_LEFT" prefHeight="45.0" prefWidth="601.0">
+         <children>
+            <Label fx:id="JVMTotalSizeLabel" contentDisplay="CENTER" text="celkova dostupna pamet pre JVM">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+         </children>
+      </HBox>
+      <HBox alignment="CENTER_LEFT" prefHeight="45.0" prefWidth="601.0">
+         <children>
+            <Label fx:id="JVMAvailableSizeLabel" contentDisplay="CENTER" text="dostupna pamet pre jvm">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+         </children>
+      </HBox>
+      <HBox alignment="CENTER_LEFT" prefHeight="45.0" prefWidth="601.0">
+         <children>
+            <Label fx:id="JVMFreeSizeLabel" contentDisplay="CENTER" text="volna pamet v jvm pred alokaciou">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+         </children>
+      </HBox>
+   </children>
+   <padding>
+      <Insets left="20.0" right="20.0" />
+   </padding>
+</VBox>
